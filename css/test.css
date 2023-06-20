@@ -1,3 +1,0 @@
-body:not(body:has(:target)) li a[href="#home"] {
-    color: #000;
-}
