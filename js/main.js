@@ -21,7 +21,7 @@
 function changeText() {
   var genrateQuta= [
     {author: 'Jim Rohn', 
-     quote: '"Beware of what you become in pursuit of what you want."'
+     quote: 'Beware of what you become in pursuit of what you want.'
     },
     {author: 'Epictetus', 
      quote: 'It\'s not what happens to you, but how you react to it that matters.'
@@ -36,7 +36,7 @@ function changeText() {
      quote: 'Resentment is like drinking poison and waiting for your enemies to die.'
     },
     {author: 'Elbert Hubbard', 
-     quote: '"Do not take life too seriously. You will not get out alive."'
+     quote: 'Do not take life too seriously. You will not get out alive.'
     },
 ];
     for(i=0;i<genrateQuta.length;i++) {
@@ -44,7 +44,8 @@ function changeText() {
     qutaValue = genrateQuta[random].quote;
     authorValue = genrateQuta[random].author;
    }   
-   document.getElementById("quta").innerHTML= `${qutaValue} `;
-   document.getElementById("writer").innerHTML= `${authorValue} `;
+   document.getElementById("quta").innerHTML= `"${qutaValue}" `;
+   document.getElementById("writer").innerHTML= `--${authorValue} `;
 }
+
 
